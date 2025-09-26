@@ -4,95 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SySLink - Projects</title>
+
+  <!-- SEO -->
+  <meta name="description" content="SySLink - Projects showcase.">
+  <meta name="author" content="SySLink">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SySLink - Projects">
+  <meta property="og:description" content="Explore projects by SySLink. Node.js • Python • Linux • Automation">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://syslink.dev/projects">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="SySLink - Projects">
+  <meta name="twitter:description" content="Explore projects by SySLink. Node.js • Python • Linux • Automation">
+
   <style>
-    body {
-      background-color: #000;
-      color: #00ff00;
-      font-family: monospace;
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-      overflow: hidden;
-    }
-    body::after {
-      content: "";
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: repeating-linear-gradient(
-        to bottom,
-        rgba(0, 255, 0, 0.05) 0px,
-        rgba(0, 255, 0, 0.05) 2px,
-        transparent 2px,
-        transparent 4px
-      );
-      pointer-events: none;
-      z-index: 10;
-    }
-    header, footer {
-      background: #000;
-      padding: 15px;
-      text-align: center;
-      border-bottom: 2px solid #00ff00;
-      text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00;
-      z-index: 5;
-    }
-    footer {
-      border-top: 2px solid #00ff00;
-      border-bottom: none;
-      margin-top: auto;
-      font-size: 14px;
-    }
-    nav a {
-      color: yellow;
-      margin: 0 12px;
-      text-decoration: none;
-      text-shadow: 0 0 5px yellow;
-    }
-    nav a:hover {
-      text-decoration: underline;
-      color: #ff0;
-    }
-    main {
-      flex-grow: 1;
-      padding: 25px;
-      overflow-y: auto;
-      z-index: 5;
-    }
-    h2 {
-      border-bottom: 1px solid #00ff00;
-      padding-bottom: 5px;
-      margin-bottom: 10px;
-      text-shadow: 0 0 5px #00ff00;
-    }
-    section {
-      margin: 25px 0;
-    }
-    p::before {
-      content: "> ";
-      color: yellow;
-      text-shadow: 0 0 5px yellow;
-    }
-    .ascii {
-      color: #00ff00;
-      white-space: pre;
-      font-size: 14px;
-      line-height: 1.2;
-      text-align: center;
-      margin-bottom: 10px;
-      text-shadow: 0 0 5px #00ff00, 0 0 15px #00ff00;
-    }
-    .cursor {
-      display: inline-block;
-      width: 10px;
-      background: #00ff00;
-      animation: blink 1s infinite;
-    }
-    @keyframes blink {
-      50% { background: transparent; }
-    }
+    body { background:#000; color:#0f0; font-family:monospace; margin:0; padding:0; height:100vh; display:flex; flex-direction:column; position:relative; overflow:hidden; }
+    body::after { content:""; position:absolute; top:0; left:0; right:0; bottom:0; background:repeating-linear-gradient(to bottom, rgba(0,255,0,0.05) 0px, rgba(0,255,0,0.05) 2px, transparent 2px, transparent 4px); pointer-events:none; z-index:10; }
+    header,footer { background:#000; padding:15px; text-align:center; border-bottom:2px solid #0f0; text-shadow:0 0 5px #0f0,0 0 10px #0f0; z-index:5; }
+    footer { border-top:2px solid #0f0; border-bottom:none; margin-top:auto; font-size:14px; }
+    nav a { color:yellow; margin:0 12px; text-decoration:none; text-shadow:0 0 5px yellow; }
+    nav a:hover { text-decoration:underline; color:#ff0; }
+    main { flex-grow:1; padding:25px; overflow-y:auto; z-index:5; }
+    h2 { border-bottom:1px solid #0f0; padding-bottom:5px; margin-bottom:10px; text-shadow:0 0 5px #0f0; }
+    section { margin:25px 0; }
+    p::before { content:"> "; color:yellow; text-shadow:0 0 5px yellow; }
+    .ascii { color:#0f0; white-space:pre; font-size:14px; line-height:1.2; text-align:center; margin-bottom:10px; text-shadow:0 0 5px #0f0,0 0 15px #0f0; }
+    .cursor { display:inline-block; width:10px; background:#0f0; animation:blink 1s infinite; }
+    @keyframes blink { 50%{background:transparent;} }
   </style>
 </head>
 <body>

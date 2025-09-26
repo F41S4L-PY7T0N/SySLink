@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #fff;
+}
+header {
+  padding: 20px;
+  text-align: center;
+  background: rgba(0,0,0,0.4);
+}
+nav a {
+  margin: 0 10px;
+  color: #00f5d4;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #ff9f1c;
+}
+.highlight {
+  color: #00f5d4;
+}
+main {
+  padding: 40px;
+  text-align: center;
+}
